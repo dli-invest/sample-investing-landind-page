@@ -13,6 +13,7 @@ import Navbar from "@/components/Navbar.vue";
 @Options({
   components: {
     HelloWorld,
+    Navbar,
   },
 })
 export default class Home extends Vue {}
