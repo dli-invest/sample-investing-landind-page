@@ -1,7 +1,7 @@
 <template>
-<Navbar />
-<Counter />
 <div class="home">
+  <Navbar />
+  <Counter />
   <img alt="Vue logo" src="../assets/logo.png" />
   <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
 </div>
