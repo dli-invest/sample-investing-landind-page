@@ -11,7 +11,10 @@
 </template>
 
 <script lang="ts">
-export default {
+import {
+  Vue
+} from "vue-class-component";
+export default class Navbar extends Vue {
   data() {
     return {
       items: [{
@@ -126,6 +129,6 @@ export default {
         },
       ],
     };
-  },
-};
+  }
+}
 </script>
