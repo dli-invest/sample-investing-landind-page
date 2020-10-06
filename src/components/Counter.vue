@@ -9,9 +9,6 @@
 <script>
 import {
   ref
-} from "@vue/composition-api"; // <-- Use this line if you're in a Vue 2 app with the composition API plugin
-import {
-  ref
 } from "vue"; // <-- Use this line if you're in a Vue 3 app
 
 export default {
@@ -23,7 +20,7 @@ export default {
     }
     return {
       capacity,
-      increaseCapacity
+      increaseCapacity,
     };
   },
 };
