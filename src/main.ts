@@ -4,4 +4,11 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
-createApp(App).use(store).use(router).mount('#app')
+import 'primevue/resources/themes/saga-blue/theme.css';
+import 'primevue/resources/primevue.min.css';
+import 'primeicons/primeicons.css';
+
+const app = createApp(App);
+createApp(App)
+app.config.globalProperties.$primevue = {ripple: true};
+app.use(store).use(router).mount('#app')
