@@ -19,6 +19,7 @@ import Counter from "@/components/Counter.vue";
   components: {
     HelloWorld,
     Navbar,
+    Counter,
   },
 })
 export default class Home extends Vue {}
