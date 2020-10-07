@@ -11,6 +11,7 @@
 </template>
 
 <script lang="ts">
+// add padding to menubar
 import {
     Options
 } from "vue-class-component";
