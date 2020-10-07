@@ -1,12 +1,12 @@
 <template>
 <div class="p-grid">
-    <div class="p-col-12 p-md-6 p-lg-6">
+    <div class="p-col-6 p-md-6 p-lg-6">
         <h2>App, Business & SaaS</h2>
         <h3>
             Landing Page Template
         </h3>
     </div>
-    <div class="p-col-12 p-md-6 p-lg-6">
+    <div class="p-col-6 p-md-6 p-lg-6">
         <img alt="Vue logo" src="../assets/undraw_investment_xv9d.svg" class="thero__image" />
     </div>
 </div>
@@ -28,6 +28,7 @@
     &__image {
         max-width: 50%;
         min-width: 400px;
+        display: inline-block;
     }
 }
 </style>

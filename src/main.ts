@@ -12,5 +12,5 @@ import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css'
 const app = createApp(App);
 createApp(App)
-app.config.globalProperties.$primevue = {ripple: true};
+app.config.globalProperties.$primevue = { ripple: true };
 app.use(store).use(router).mount('#app')
