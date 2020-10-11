@@ -1,25 +1,25 @@
 <template>
 <div class="about">
-  <Navbar />
-  <Counter />
-  <h1>This is an about page</h1>
+    <Navbar />
+    <Counter />
+    <h1>This is an about page</h1>
 </div>
 </template>
 
 <script lang="ts">
 import {
-  Options,
-  Vue
+    Options,
+    Vue
 } from "vue-class-component";
 import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
 import Counter from "@/components/Counter.vue";
 @Options({
-  components: {
-    HelloWorld,
-    Navbar,
-    Counter,
-  },
+    components: {
+        HelloWorld,
+        Navbar,
+        Counter,
+    },
 })
 export default class Home extends Vue {}
 </script>

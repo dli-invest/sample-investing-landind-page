@@ -12,5 +12,17 @@ import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css'
 const app = createApp(App);
 createApp(App)
+
+// font awesome icons
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faChartLine, faHandHoldingUsd, faPiggyBank, faBullseye } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faHandHoldingUsd, faChartLine, faPiggyBank, faBullseye)
+
+app.component('font-awesome-icon', FontAwesomeIcon)
+
+
 app.config.globalProperties.$primevue = { ripple: true };
 app.use(store).use(router).mount('#app')
