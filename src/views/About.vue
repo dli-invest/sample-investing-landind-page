@@ -13,12 +13,10 @@ import {
 } from "vue-class-component";
 import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
-import Counter from "@/components/Counter.vue";
 @Options({
     components: {
         HelloWorld,
-        Navbar,
-        Counter,
+        Navbar
     },
 })
 export default class Home extends Vue {}

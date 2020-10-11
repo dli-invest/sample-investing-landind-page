@@ -1,5 +1,8 @@
 # website
 
+## Todo List
+
+* Refactor code to use csc, 
 ## Project setup
 ```
 npm install

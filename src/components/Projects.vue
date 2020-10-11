@@ -1,9 +1,9 @@
 <template>
 <div class="p-grid">
     <div class="p-col-12 p-md-6 p-lg-6 p-jc-center">
-        <div>
-            <img src="../assets/undraw_Artificial_intelligence_re_enpp.svg" class="services__image" />
-            <h4>Leveraging AI to drive data based decisions.</h4>
+        <div class="center__wrapper">
+            <img src="../assets/undraw_project_completed_w0oq.svg" class="services__image" />
+            <h4>Various open source projects.</h4>
         </div>
     </div>
     <div class="p-col-12 p-md-6 p-lg-6 services__wrapper">
@@ -14,13 +14,13 @@
         <Fieldset legend="News Notifications" :toggleable="true">
             News notifications directly sent to discord channels using discord webhooks and cron jobs via github actions.
         </Fieldset>
-
+        <Fieldset legend="Investing eBook" :toggleable="true">
+            Technical Reference with plenty of python scripts to grab key data from the web and
+            plotting various stocks at key inflection points.
+        </Fieldset>
     </div>
 </div>
 </template>
-
-<style lang="scss">
-</style>
 
 <script lang="ts">
 import {

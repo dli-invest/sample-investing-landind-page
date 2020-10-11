@@ -6,6 +6,9 @@
 <div class="custom-container">
     <Services />
 </div>
+<div class="custom-container">
+    <Contact />
+</div>
 </template>
 
 <style scoped>
@@ -21,14 +24,14 @@ import {
     Vue
 } from "vue-class-component";
 import Navbar from "@/components/Navbar.vue";
-import Counter from "@/components/Counter.vue";
 import TitleHeader from "@/components/TitleHeader.vue";
 import Services from "@/components/Services.vue";
-import Projects from "@/components/Projects.vue"
+import Projects from "@/components/Projects.vue";
+import Contact from '@/components/Contact.vue'
 @Options({
     components: {
         Navbar,
-        Counter,
+        Contact,
         TitleHeader,
         Services,
         Projects

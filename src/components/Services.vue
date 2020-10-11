@@ -12,7 +12,7 @@
             </div>
         </div>
     </div>
-    <div class="p-col-12 p-md-6 p-lg-6 services__wrapper">
+    <div class="p-col-12 p-md-6 p-lg-6 center__wrapper">
         <div>
             <img src="../assets/undraw_Artificial_intelligence_re_enpp.svg" class="services__image" />
             <h4>Leveraging AI to drive data based decisions.</h4>
@@ -21,23 +21,6 @@
     </div>
 </div>
 </template>
-
-<style lang="scss">
-.services {
-    &__image {
-        max-width: 75%;
-        min-width: 25%;
-        display: inline-block;
-        overflow: hidden;
-        margin: auto;
-    }
-
-    &__wrapper {
-        text-align: center;
-        margin: auto
-    }
-}
-</style>
 
 <script lang="ts">
 import {
