@@ -1,24 +1,40 @@
 <template>
-    <TitleHeader />
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+<TitleHeader />
+<div class="custom-container">
+    <Projects />
+</div>
+<div class="custom-container">
+    <Services />
+</div>
+<div class="custom-container">
+    <Contact />
+</div>
 </template>
+
+<style scoped>
+.custom-container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+</style>
 
 <script lang="ts">
 import {
     Options,
     Vue
 } from "vue-class-component";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
-import Counter from "@/components/Counter.vue";
-import TitleHeader from "@/components/TitleHeader.vue"
+import TitleHeader from "@/components/TitleHeader.vue";
+import Services from "@/components/Services.vue";
+import Projects from "@/components/Projects.vue";
+import Contact from '@/components/Contact.vue'
 @Options({
     components: {
-        HelloWorld,
         Navbar,
-        Counter,
-        TitleHeader
+        Contact,
+        TitleHeader,
+        Services,
+        Projects
     },
 })
 export default class Home extends Vue {}
