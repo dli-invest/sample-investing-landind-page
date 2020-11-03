@@ -7,10 +7,10 @@
     <Services />
   </div>
   <div class="custom-container">
-    <Contact />
+    <SampleReports />
   </div>
   <div class="custom-container">
-    <Examples />
+    <Contact />
   </div>
 </template>
 
@@ -28,7 +28,7 @@ import TitleHeader from "@/components/TitleHeader.vue";
 import Services from "@/components/Services.vue";
 import Projects from "@/components/Projects.vue";
 import Contact from "@/components/Contact.vue";
-import Examples from "@/components/Examples.vue";
+import SampleReports from "@/components/SampleReports.vue";
 @Options({
   components: {
     Navbar,
@@ -36,7 +36,7 @@ import Examples from "@/components/Examples.vue";
     TitleHeader,
     Services,
     Projects,
-    Examples,
+    SampleReports,
   },
 })
 export default class Home extends Vue {}
