@@ -33,7 +33,7 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import Card from "primevue/Card";
+import Card from "primevue/card";
 @Options({
   components: {
     Card,
