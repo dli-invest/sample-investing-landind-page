@@ -33,13 +33,11 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import Fieldset from "primevue/fieldset";
-import ServiceCard from "@/components/ServiceCard.vue"; // @ is an alias to /src
+import Card from "primevue/Card";
 @Options({
   components: {
-    ServiceCard,
-    Fieldset,
+    Card,
   },
 })
-export default class Projects extends Vue {}
+export default class Examples extends Vue {}
 </script>
