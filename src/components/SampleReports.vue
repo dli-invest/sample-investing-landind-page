@@ -1,6 +1,6 @@
 <template>
-  <div class="p-grid">
-    <div class="p-col-12 p-jc-center">
+  <div class="p-grid" :style="{ justifyContent: `center` }">
+    <div class="p-col-8">
       <TabView>
         <TabPanel header="Datapane reports">
         Various datapane reports available at
@@ -17,7 +17,9 @@
         <TabPanel header="Knowledge From Projects">
                 Great open source projects such as mplfinance, cheaply available
                 courses on coursera have inspired me to open source my material. A lot
-                of my thoughts are available at my executable book
+                of my thoughts are available at my executable book.
+
+                Available at <a href="https://dli-invest.github.io/investing-book">Investing Book</a>
         </TabPanel>
       </TabView>
     </div>
